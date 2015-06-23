@@ -26,6 +26,8 @@
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
+			<key>NSExtensionJavaScriptProcessingFile</key>
+			<string>Action</string>
 			<key>NSExtensionActivationRule</key>
 			<dict/>
 			<key>NSExtensionActivationSupportsWebPageWithMaxCount</key>
