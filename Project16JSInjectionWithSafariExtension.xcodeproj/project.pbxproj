@@ -10,6 +10,7 @@
 		BA67AD9D1B3992300011AA2F /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA67AD9C1B3992300011AA2F /* ActionViewController.swift */; };
 		BA67AD9F1B3992300011AA2F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA67AD9E1B3992300011AA2F /* MainInterface.storyboard */; };
 		BA67ADA21B3992300011AA2F /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA67AD981B3992300011AA2F /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA67ADA81B39B2EA0011AA2F /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = BA67ADA71B39B2EA0011AA2F /* Action.js */; };
 		BA9059C31B394C870097A463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9059C21B394C870097A463 /* AppDelegate.swift */; };
 		BA9059C51B394C870097A463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9059C41B394C870097A463 /* ViewController.swift */; };
 		BA9059C81B394C870097A463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9059C61B394C870097A463 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		BA67AD9B1B3992300011AA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA67AD9C1B3992300011AA2F /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		BA67AD9E1B3992300011AA2F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		BA67ADA71B39B2EA0011AA2F /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 		BA9059BD1B394C870097A463 /* Project16JSInjectionWithSafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project16JSInjectionWithSafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9059C11B394C870097A463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9059C21B394C870097A463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				BA67AD9B1B3992300011AA2F /* Info.plist */,
+				BA67ADA71B39B2EA0011AA2F /* Action.js */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA67ADA81B39B2EA0011AA2F /* Action.js in Resources */,
 				BA67AD9F1B3992300011AA2F /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
