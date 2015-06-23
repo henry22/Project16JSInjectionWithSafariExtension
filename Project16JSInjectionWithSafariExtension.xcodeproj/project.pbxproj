@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA67AD9D1B3992300011AA2F /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA67AD9C1B3992300011AA2F /* ActionViewController.swift */; };
+		BA67AD9F1B3992300011AA2F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA67AD9E1B3992300011AA2F /* MainInterface.storyboard */; };
+		BA67ADA21B3992300011AA2F /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA67AD981B3992300011AA2F /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BA9059C31B394C870097A463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9059C21B394C870097A463 /* AppDelegate.swift */; };
 		BA9059C51B394C870097A463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9059C41B394C870097A463 /* ViewController.swift */; };
 		BA9059C81B394C870097A463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9059C61B394C870097A463 /* Main.storyboard */; };
@@ -16,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BA67ADA01B3992300011AA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9059B51B394C870097A463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA67AD971B3992300011AA2F;
+			remoteInfo = Extension;
+		};
 		BA9059D31B394C870097A463 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BA9059B51B394C870097A463 /* Project object */;
@@ -25,7 +35,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA67ADA61B3992300011AA2F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA67ADA21B3992300011AA2F /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BA67AD981B3992300011AA2F /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA67AD9B1B3992300011AA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA67AD9C1B3992300011AA2F /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		BA67AD9E1B3992300011AA2F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		BA9059BD1B394C870097A463 /* Project16JSInjectionWithSafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project16JSInjectionWithSafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9059C11B394C870097A463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9059C21B394C870097A463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +67,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BA67AD951B3992300011AA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA9059BA1B394C870097A463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,11 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA67AD991B3992300011AA2F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA67AD9C1B3992300011AA2F /* ActionViewController.swift */,
+				BA67AD9E1B3992300011AA2F /* MainInterface.storyboard */,
+				BA67AD9A1B3992300011AA2F /* Supporting Files */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BA67AD9A1B3992300011AA2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA67AD9B1B3992300011AA2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BA9059B41B394C870097A463 = {
 			isa = PBXGroup;
 			children = (
 				BA9059BF1B394C870097A463 /* Project16JSInjectionWithSafariExtension */,
 				BA9059D51B394C870097A463 /* Project16JSInjectionWithSafariExtensionTests */,
+				BA67AD991B3992300011AA2F /* Extension */,
 				BA9059BE1B394C870097A463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +124,7 @@
 			children = (
 				BA9059BD1B394C870097A463 /* Project16JSInjectionWithSafariExtension.app */,
 				BA9059D21B394C870097A463 /* Project16JSInjectionWithSafariExtensionTests.xctest */,
+				BA67AD981B3992300011AA2F /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +170,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BA67AD971B3992300011AA2F /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA67ADA31B3992300011AA2F /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				BA67AD941B3992300011AA2F /* Sources */,
+				BA67AD951B3992300011AA2F /* Frameworks */,
+				BA67AD961B3992300011AA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = BA67AD981B3992300011AA2F /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		BA9059BC1B394C870097A463 /* Project16JSInjectionWithSafariExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA9059DC1B394C870097A463 /* Build configuration list for PBXNativeTarget "Project16JSInjectionWithSafariExtension" */;
@@ -122,10 +194,12 @@
 				BA9059B91B394C870097A463 /* Sources */,
 				BA9059BA1B394C870097A463 /* Frameworks */,
 				BA9059BB1B394C870097A463 /* Resources */,
+				BA67ADA61B3992300011AA2F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BA67ADA11B3992300011AA2F /* PBXTargetDependency */,
 			);
 			name = Project16JSInjectionWithSafariExtension;
 			productName = Project16JSInjectionWithSafariExtension;
@@ -159,6 +233,9 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Henry;
 				TargetAttributes = {
+					BA67AD971B3992300011AA2F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 					BA9059BC1B394C870097A463 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -183,11 +260,20 @@
 			targets = (
 				BA9059BC1B394C870097A463 /* Project16JSInjectionWithSafariExtension */,
 				BA9059D11B394C870097A463 /* Project16JSInjectionWithSafariExtensionTests */,
+				BA67AD971B3992300011AA2F /* Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BA67AD961B3992300011AA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67AD9F1B3992300011AA2F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA9059BB1B394C870097A463 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +294,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BA67AD941B3992300011AA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67AD9D1B3992300011AA2F /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA9059B91B394C870097A463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +322,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BA67ADA11B3992300011AA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA67AD971B3992300011AA2F /* Extension */;
+			targetProxy = BA67ADA01B3992300011AA2F /* PBXContainerItemProxy */;
+		};
 		BA9059D41B394C870097A463 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BA9059BC1B394C870097A463 /* Project16JSInjectionWithSafariExtension */;
@@ -255,6 +354,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BA67ADA41B3992300011AA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA67ADA51B3992300011AA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		BA9059DA1B394C870097A463 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,6 +516,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BA67ADA31B3992300011AA2F /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA67ADA41B3992300011AA2F /* Debug */,
+				BA67ADA51B3992300011AA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BA9059B81B394C870097A463 /* Build configuration list for PBXProject "Project16JSInjectionWithSafariExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

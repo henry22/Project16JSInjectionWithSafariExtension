@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Project16JSInjectionWithSafariExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>BA67AD971B3992300011AA2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BA9059BC1B394C870097A463</key>
 		<dict>
 			<key>primary</key>
