@@ -77,11 +77,8 @@
 		BA9059BF1B394C870097A463 /* Project16JSInjectionWithSafariExtension */ = {
 			isa = PBXGroup;
 			children = (
-				BA9059C21B394C870097A463 /* AppDelegate.swift */,
 				BA9059C41B394C870097A463 /* ViewController.swift */,
 				BA9059C61B394C870097A463 /* Main.storyboard */,
-				BA9059C91B394C870097A463 /* Images.xcassets */,
-				BA9059CB1B394C870097A463 /* LaunchScreen.xib */,
 				BA9059C01B394C870097A463 /* Supporting Files */,
 			);
 			path = Project16JSInjectionWithSafariExtension;
@@ -90,6 +87,9 @@
 		BA9059C01B394C870097A463 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA9059C21B394C870097A463 /* AppDelegate.swift */,
+				BA9059C91B394C870097A463 /* Images.xcassets */,
+				BA9059CB1B394C870097A463 /* LaunchScreen.xib */,
 				BA9059C11B394C870097A463 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -409,6 +409,7 @@
 				BA9059DE1B394C870097A463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9059DF1B394C870097A463 /* Build configuration list for PBXNativeTarget "Project16JSInjectionWithSafariExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				BA9059E11B394C870097A463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
