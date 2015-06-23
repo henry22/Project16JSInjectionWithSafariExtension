@@ -27,7 +27,9 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>NSExtensionActivationRule</key>
-			<string>TRUEPREDICATE</string>
+			<dict/>
+			<key>NSExtensionActivationSupportsWebPageWithMaxCount</key>
+			<string>1</string>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
 		<string>MainInterface</string>
