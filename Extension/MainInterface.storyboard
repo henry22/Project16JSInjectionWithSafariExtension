@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MsQ-WG-ZEt">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="464"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -25,10 +25,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MsQ-WG-ZEt" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="3M6-Yx-mzF"/>
                             <constraint firstAttribute="trailing" secondItem="MsQ-WG-ZEt" secondAttribute="trailing" id="9K0-tb-bdC"/>
                             <constraint firstItem="MsQ-WG-ZEt" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="AGM-BW-oJp"/>
                             <constraint firstItem="MsQ-WG-ZEt" firstAttribute="bottom" secondItem="n38-gi-rB5" secondAttribute="top" id="gL5-QX-CoK"/>
+                            <constraint firstItem="MsQ-WG-ZEt" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="y6D-pU-n7R"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rtv-ib-u44"/>
